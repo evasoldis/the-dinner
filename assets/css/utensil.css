@@ -1,0 +1,161 @@
+* 
+{
+    color: rgb(0, 0, 130);
+    line-height: 120%;
+    letter-spacing: .015em;
+    text-align: center;
+    margin: 1rem;
+}
+
+p {
+  text-align: left;
+}
+
+h2 {
+  position: absolute;
+  font-size:220%;
+  line-height: 125%;
+  font-weight: 200;
+  max-width: 20ch;
+  text-align: left;
+}
+
+.learn-more {  
+    position:absolute;
+    padding: 1rem;
+    background-color: white;
+    right: -0.5rem;
+    bottom: -1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 130);
+    cursor: pointer;
+  }
+
+.learn-more:hover {
+  color:grey;
+}
+
+.menu {  
+  position:absolute;
+  padding: 1rem;
+  background-color: white;
+  left: -0.5rem;
+  bottom: -1rem;
+  text-decoration: none;
+  color: rgb(0, 0, 130);
+  cursor: pointer;
+}
+
+  .menu:hover {
+  color:grey;
+  }
+
+.center-piece {
+  margin-top: -1rem;
+  margin-left: 18rem;
+  margin-bottom: -2rem;
+  padding-bottom: -2rem;
+  opacity: 0;
+} 
+
+.table {
+  position: relative;
+  z-index: 1;
+}
+
+.table > a {
+  position: absolute;
+  font-size: 0;
+  opacity: 1;
+}
+
+.button-img {
+  transition: 0.3s ease; /* Smooth transition for scaling effect */
+  display: inline-block; 
+}
+
+.button-img:hover {
+  scale:1.03;
+  }
+
+.table > a::before {
+  position: absolute;
+  z-index: -1;
+}
+.table > a:hover {
+  opacity: 1
+}
+
+.table > a[href="#story-one"] {
+  left: 9%; top: 46%;
+}
+
+.table > a[href="#story-two"] {
+  left: 16%; top: 43%;
+}
+
+.table > a[href="#story-three"] {
+  left: 24%; top: 52%;
+}
+
+
+.table > a[href="#story-five"] {
+  left: 31%; top: 40%;
+}
+
+.table > a[href="#story-six"] {
+  left: 62%; top: 42%;
+}
+
+.table > a[href="#story-seven"] {
+  left: 69%; top: 46%;
+}
+
+.table > a[href="#story-eight"] {
+  left: 75.5%; top: 47%;
+}
+
+.table > a[href="#story-nine"] {
+  left: 82%; top: 56%;
+}
+
+.table > a[href="#story-ten"] {
+  left: 45%; top: -4%;
+}
+
+.table > a[href="#story-eleven"] {
+  left: 61%; top: 1%;
+}
+
+.table > a[href="#story-twelve"] {
+  left: 76%; top: 10%;
+}
+
+
+div[id^="story-"] {
+  position: absolute;
+  width: fit-content; 
+  max-width: 55ch;
+  padding: 1.2rem;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 130);
+  text-align: left;
+  display: none;
+}
+
+div[id^="story-"]:target {
+  display: block;
+}
+
+div#story-one { top: -1rem; left: -2.5rem }
+div#story-two { top: -1rem; left: -2.5rem }
+div#story-three { top: -1rem; left: -2.5rem }
+div#story-four { top: -1rem; left: -2.5rem }
+div#story-five { top: -1rem; left: -2.5rem }
+div#story-six { top: -1rem; left: -2.5rem }
+div#story-seven { top: -1rem; left: -2.5rem }
+div#story-eight { top: -1rem; left: -2.5rem }
+div#story-nine { top: -1rem; left: -2.5rem }
+div#story-ten { top: -1rem; left: -2.5rem  }
+div#story-eleven { top: -1rem; left: -2.5rem }
+div#story-twelve { top: -1rem; left: -2.5rem }
